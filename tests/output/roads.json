@@ -1,0 +1,24 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area"
+    },
+    "roads": {
+        "i80": {
+            "open": true,
+            "requirements": "__requirements__",
+            "message": "__message__"
+        },
+        "Mountain Road": {
+            "open": true,
+            "message": "__message__"
+        },
+        "Service Road": {
+            "open": false,
+            "requirements": "__requirements__",
+            "message": "__message__"
+        }
+    }
+}

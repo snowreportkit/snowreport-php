@@ -1,0 +1,26 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area"
+    },
+    "cameras": {
+        "camera_a": {
+            "url": "__url__",
+            "area": "__area__",
+            "live": true,
+            "featured": false,
+            "age": 0,
+            "updated_at_js": 1558540804422
+        },
+        "camera_b": {
+            "url": "__url__",
+            "area": "__area__",
+            "live": true,
+            "featured": false,
+            "age": 0,
+            "updated_at_js": 1558540804422
+        }
+    }
+}

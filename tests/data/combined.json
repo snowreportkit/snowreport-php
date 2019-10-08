@@ -1,0 +1,795 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area",
+        "website": "https:\/\/acmeskiresort.com",
+        "address": {
+            "address": "1234 Acme Rd",
+            "city": "Bozeman",
+            "state": "Montana",
+            "country": "USA",
+            "zip": 12345,
+            "directions": [
+                "From airport head east on interstate, take exit 123, turn left onto...",
+                "From University of School, head north on University Drive..."
+            ]
+        },
+        "phone": "1-866-123-1234",
+        "open": true,
+        "acres": 2000,
+        "acres_open": 500,
+        "hours": {
+            "open_time": "09:00",
+            "close_time": "16:30",
+            "night_open_time": "17:00"
+        },
+        "season": {
+            "open": "2019-01-01",
+            "close": "2019-01-01"
+        },
+        "base_elevation": 6100,
+        "top_elevation": 8800,
+        "max_vertical": 2700,
+        "lift_served_vertical": 2600
+    },
+    "events": {
+        "event_a": {
+            "date": "2019-01-01T00:00:00+00:00",
+            "summary": "__summary__",
+            "description": "__description__",
+            "url": "__url__",
+            "thumbnail": "__thumbnail__",
+            "date_js": 1546300800000
+        },
+        "event_b": {
+            "date": "2019-01-02T00:00:00+00:00",
+            "summary": "__summary__",
+            "description": "__description__",
+            "url": "__url__",
+            "thumbnail": "__thumbnail__",
+            "date_js": 1546387200000
+        }
+    },
+    "cameras": {
+        "camera_a": {
+            "url": "__url__",
+            "area": "__area__",
+            "live": true,
+            "featured": false,
+            "age": 0,
+            "updated_at_js": 1558540804422
+        },
+        "camera_b": {
+            "url": "__url__",
+            "area": "__area__",
+            "live": true,
+            "featured": false,
+            "age": 0,
+            "updated_at_js": 1558540804422
+        }
+    },
+    "weather": {
+        "summary": "__summary__",
+        "report": {
+            "time": "2019-01-01T10:03:00+00:00",
+            "snow": {
+                "__station_a__": {
+                    "unit": "in",
+                    "snow_12hr": 1,
+                    "snow_24hr": 2,
+                    "seasonal": 3
+                },
+                "__station_b__": {
+                    "unit": "in",
+                    "snow_12hr": 1,
+                    "snow_24hr": 2,
+                    "seasonal": 3
+                }
+            },
+            "wind": {
+                "__station_a__": {
+                    "direction": 123,
+                    "speed_mph": 2,
+                    "speed_kph": 3,
+                    "gusts_mph": 3,
+                    "gusts_kph": 4,
+                    "cardinal": "ESE"
+                },
+                "__station_b__": {
+                    "direction": 92,
+                    "speed_mph": 1,
+                    "speed_kph": 2,
+                    "gusts_mph": 1,
+                    "gusts_kph": 3,
+                    "cardinal": "E"
+                }
+            },
+            "temperature": {
+                "__station_a__": {
+                    "f": 32,
+                    "c": 0,
+                    "high_f": 32,
+                    "low_f": 26,
+                    "high_c": 0,
+                    "low_c": -10
+                },
+                "__station_b__": {
+                    "f": 0,
+                    "c": -17
+                }
+            },
+            "message": "__message_text__",
+            "time_js": 1546336980000
+        },
+        "stations": {
+            "__station_a__": {
+                "area": "__station_a_area__",
+                "location": {
+                    "lat": 123.45,
+                    "lon": -47.654
+                },
+                "conditions": "__station_a_conditions__",
+                "temperature": {
+                    "f": 20,
+                    "c": -6
+                },
+                "visibility": 100,
+                "wind": {
+                    "direction": 123,
+                    "speed_mph": 2,
+                    "speed_kph": 3,
+                    "gusts_mph": 3,
+                    "gusts_kph": 4,
+                    "cardinal": "ESE"
+                },
+                "snow": {
+                    "unit": "in",
+                    "snow_12hr": 1,
+                    "snow_24hr": 2,
+                    "seasonal": 3
+                },
+                "readings": {
+                    "2019-01-01 09:05:00": {
+                        "time": "2019-01-01T09:05:00+00:00",
+                        "humidity": 0.2,
+                        "water_in": 5,
+                        "water_cm": 12,
+                        "temperature_f": 3,
+                        "temperature_c": -16,
+                        "wind_mph": 5,
+                        "gust_mph": 15,
+                        "wind_kph": 8,
+                        "gust_kph": 24,
+                        "wind_direction": 33,
+                        "new_snow_in": 5,
+                        "settled_snow_in": 50,
+                        "new_snow_cm": 12,
+                        "settled_snow_cm": 127,
+                        "time_js": 1546333500000
+                    }
+                }
+            },
+            "__station_b__": {
+                "area": "__station_b_area__",
+                "location": {
+                    "lat": 123.45,
+                    "lon": -47.654
+                },
+                "conditions": "__station_b_conditions__",
+                "temperature": {
+                    "f": 20,
+                    "c": -6
+                },
+                "visibility": 100,
+                "wind": {
+                    "direction": 123,
+                    "speed_mph": 2,
+                    "speed_kph": 3,
+                    "gusts_mph": 3,
+                    "gusts_kph": 4,
+                    "cardinal": "ESE"
+                },
+                "snow": {
+                    "unit": "in",
+                    "snow_12hr": 1,
+                    "snow_24hr": 2,
+                    "seasonal": 3
+                },
+                "readings": {
+                    "2019-01-01 09:05:00": {
+                        "time": "2019-01-01T09:05:00+00:00",
+                        "humidity": 0.2,
+                        "water_in": 5,
+                        "water_cm": 12,
+                        "temperature_f": 3,
+                        "temperature_c": -16,
+                        "wind_mph": 5,
+                        "gust_mph": 15,
+                        "wind_kph": 8,
+                        "gust_kph": 24,
+                        "wind_direction": 33,
+                        "new_snow_in": 5,
+                        "settled_snow_in": 50,
+                        "new_snow_cm": 12,
+                        "settled_snow_cm": 127,
+                        "time_js": 1546333500000
+                    }
+                }
+            }
+        },
+        "forecast": {
+            "2019-05-15": {
+                "date": "2019-05-15T06:00:00+00:00",
+                "summary": "Mostly cloudy throughout the day.",
+                "icon": "partly-cloudy-day",
+                "humidity": 0.58,
+                "pressure": 1007.58,
+                "dew_point": 40.16,
+                "uv_index": 9,
+                "temperature": {
+                    "high_f": 61,
+                    "low_f": 45,
+                    "high_c": 16,
+                    "low_c": 7
+                },
+                "wind": {
+                    "direction": 176,
+                    "speed_mph": 3,
+                    "speed_kph": 4,
+                    "gusts_mph": 14,
+                    "gusts_kph": 22,
+                    "cardinal": "S"
+                },
+                "windchill": {
+                    "high_f": 61,
+                    "low_f": 40,
+                    "high_c": 16,
+                    "low_c": 4
+                },
+                "precipitation": {
+                    "type": "rain",
+                    "probability": 0.36,
+                    "inches": 0.0224,
+                    "centimeters": 0
+                },
+                "day": "Today",
+                "date_js": 1557900000000
+            },
+            "2019-05-16": {
+                "date": "2019-05-16T06:00:00+00:00",
+                "summary": "Rain starting in the evening.",
+                "icon": "rain",
+                "humidity": 0.77,
+                "pressure": 1003.22,
+                "dew_point": 44.69,
+                "uv_index": 6,
+                "temperature": {
+                    "high_f": 59,
+                    "low_f": 42,
+                    "high_c": 14,
+                    "low_c": 5
+                },
+                "wind": {
+                    "direction": 102,
+                    "speed_mph": 11,
+                    "speed_kph": 17,
+                    "gusts_mph": 30,
+                    "gusts_kph": 48,
+                    "cardinal": "ESE"
+                },
+                "windchill": {
+                    "high_f": 59,
+                    "low_f": 39,
+                    "high_c": 14,
+                    "low_c": 3
+                },
+                "precipitation": {
+                    "type": "rain",
+                    "probability": 0.64,
+                    "inches": 0.0676,
+                    "centimeters": 0
+                },
+                "day": "Tomorrow",
+                "date_js": 1557986400000
+            },
+            "2019-05-17": {
+                "date": "2019-05-17T06:00:00+00:00",
+                "summary": "Mixed precipitation (1\u20133 in. of snow) in the morning and afternoon.",
+                "icon": "rain",
+                "humidity": 0.93,
+                "pressure": 1000.96,
+                "dew_point": 41.73,
+                "uv_index": 4,
+                "temperature": {
+                    "high_f": 47,
+                    "low_f": 32,
+                    "high_c": 8,
+                    "low_c": 0
+                },
+                "wind": {
+                    "direction": 219,
+                    "speed_mph": 2,
+                    "speed_kph": 3,
+                    "gusts_mph": 14,
+                    "gusts_kph": 22,
+                    "cardinal": "SW"
+                },
+                "windchill": {
+                    "high_f": 45,
+                    "low_f": 26,
+                    "high_c": 7,
+                    "low_c": -3
+                },
+                "precipitation": {
+                    "type": "rain",
+                    "probability": 0.95,
+                    "inches": 0.0759,
+                    "centimeters": 0
+                },
+                "day": "Friday",
+                "date_js": 1558072800000
+            },
+            "2019-05-18": {
+                "date": "2019-05-18T06:00:00+00:00",
+                "summary": "Snow (1\u20132 in.) in the morning.",
+                "icon": "snow",
+                "humidity": 0.92,
+                "pressure": 1011.86,
+                "dew_point": 34.81,
+                "uv_index": 4,
+                "temperature": {
+                    "high_f": 44,
+                    "low_f": 31,
+                    "high_c": 6,
+                    "low_c": 0
+                },
+                "wind": {
+                    "direction": 294,
+                    "speed_mph": 4,
+                    "speed_kph": 6,
+                    "gusts_mph": 12,
+                    "gusts_kph": 19,
+                    "cardinal": "WNW"
+                },
+                "windchill": {
+                    "high_f": 41,
+                    "low_f": 28,
+                    "high_c": 4,
+                    "low_c": -2
+                },
+                "precipitation": {
+                    "type": "snow",
+                    "probability": 0.9,
+                    "inches": 2.327,
+                    "centimeters": 5
+                },
+                "day": "Saturday",
+                "date_js": 1558159200000
+            },
+            "2019-05-19": {
+                "date": "2019-05-19T06:00:00+00:00",
+                "summary": "Mostly cloudy throughout the day.",
+                "icon": "partly-cloudy-day",
+                "humidity": 0.82,
+                "pressure": 1013.18,
+                "dew_point": 31.87,
+                "uv_index": 4,
+                "temperature": {
+                    "high_f": 45,
+                    "low_f": 32,
+                    "high_c": 7,
+                    "low_c": 0
+                },
+                "wind": {
+                    "direction": 91,
+                    "speed_mph": 5,
+                    "speed_kph": 8,
+                    "gusts_mph": 17,
+                    "gusts_kph": 27,
+                    "cardinal": "E"
+                },
+                "windchill": {
+                    "high_f": 42,
+                    "low_f": 28,
+                    "high_c": 5,
+                    "low_c": -2
+                },
+                "precipitation": {
+                    "type": "snow",
+                    "probability": 0.26,
+                    "inches": 0.1,
+                    "centimeters": 0
+                },
+                "day": "Sunday",
+                "date_js": 1558245600000
+            },
+            "2019-05-20": {
+                "date": "2019-05-20T06:00:00+00:00",
+                "summary": "Mostly cloudy throughout the day.",
+                "icon": "partly-cloudy-day",
+                "humidity": 0.78,
+                "pressure": 1011.27,
+                "dew_point": 30.89,
+                "uv_index": 4,
+                "temperature": {
+                    "high_f": 45,
+                    "low_f": 32,
+                    "high_c": 7,
+                    "low_c": 0
+                },
+                "wind": {
+                    "direction": 91,
+                    "speed_mph": 6,
+                    "speed_kph": 9,
+                    "gusts_mph": 17,
+                    "gusts_kph": 27,
+                    "cardinal": "E"
+                },
+                "windchill": {
+                    "high_f": 40,
+                    "low_f": 29,
+                    "high_c": 4,
+                    "low_c": -1
+                },
+                "precipitation": {
+                    "type": "rain",
+                    "probability": 0.38,
+                    "inches": 0.0031,
+                    "centimeters": 0
+                },
+                "day": "Monday",
+                "date_js": 1558332000000
+            },
+            "2019-05-21": {
+                "date": "2019-05-21T06:00:00+00:00",
+                "summary": "Foggy overnight.",
+                "icon": "fog",
+                "humidity": 0.75,
+                "pressure": 1010.23,
+                "dew_point": 33.8,
+                "uv_index": 5,
+                "temperature": {
+                    "high_f": 50,
+                    "low_f": 34,
+                    "high_c": 9,
+                    "low_c": 1
+                },
+                "wind": {
+                    "direction": 124,
+                    "speed_mph": 4,
+                    "speed_kph": 6,
+                    "gusts_mph": 16,
+                    "gusts_kph": 25,
+                    "cardinal": "SE"
+                },
+                "windchill": {
+                    "high_f": 50,
+                    "low_f": 31,
+                    "high_c": 9,
+                    "low_c": 0
+                },
+                "precipitation": {
+                    "type": "rain",
+                    "probability": 0.68,
+                    "inches": 0.0177,
+                    "centimeters": 0
+                },
+                "day": "Tuesday",
+                "date_js": 1558418400000
+            },
+            "2019-05-22": {
+                "date": "2019-05-22T06:00:00+00:00",
+                "summary": "Snow (< 1 in.) overnight.",
+                "icon": "snow",
+                "humidity": 0.79,
+                "pressure": 1009.91,
+                "dew_point": 32.82,
+                "uv_index": 4,
+                "temperature": {
+                    "high_f": 47,
+                    "low_f": 30,
+                    "high_c": 8,
+                    "low_c": -1
+                },
+                "wind": {
+                    "direction": 42,
+                    "speed_mph": 3,
+                    "speed_kph": 4,
+                    "gusts_mph": 13,
+                    "gusts_kph": 20,
+                    "cardinal": "NE"
+                },
+                "windchill": {
+                    "high_f": 44,
+                    "low_f": 24,
+                    "high_c": 6,
+                    "low_c": -4
+                },
+                "precipitation": {
+                    "type": "rain",
+                    "probability": 0.93,
+                    "inches": 0.0324,
+                    "centimeters": 0
+                },
+                "day": "Wednesday",
+                "date_js": 1558504800000
+            },
+            "2019-01-01": {
+                "date": "2019-01-01T00:00:00+00:00",
+                "summary": "__weather_summary__",
+                "icon": "snow",
+                "humidity": 0.7,
+                "pressure": 1000,
+                "dew_point": 33,
+                "uv_index": 1,
+                "temperature": {
+                    "high_f": 20,
+                    "low_f": 10,
+                    "high_c": -6,
+                    "low_c": -12
+                },
+                "wind": {
+                    "direction": 123,
+                    "speed_mph": 2,
+                    "speed_kph": 3,
+                    "gusts_mph": 3,
+                    "gusts_kph": 4,
+                    "cardinal": "ESE"
+                },
+                "windchill": {
+                    "high_f": 20,
+                    "low_f": 10,
+                    "high_c": -6,
+                    "low_c": -12
+                },
+                "precipitation": {
+                    "type": "snow",
+                    "probability": 0.9,
+                    "inches": 8,
+                    "centimeters": 20
+                },
+                "day": "Tuesday",
+                "date_js": 1546300800000
+            },
+            "2019-01-02": {
+                "date": "2019-01-02T00:00:00+00:00",
+                "summary": "__weather_summary__",
+                "icon": "snow",
+                "humidity": 0.7,
+                "pressure": 1000,
+                "dew_point": 33,
+                "uv_index": 1,
+                "temperature": {
+                    "high_f": 20,
+                    "low_f": 10,
+                    "high_c": -6,
+                    "low_c": -12
+                },
+                "wind": {
+                    "direction": 123,
+                    "speed_mph": 2,
+                    "speed_kph": 3,
+                    "gusts_mph": 3,
+                    "gusts_kph": 4,
+                    "cardinal": "ESE"
+                },
+                "windchill": {
+                    "high_f": 20,
+                    "low_f": 10,
+                    "high_c": -6,
+                    "low_c": -12
+                },
+                "precipitation": {
+                    "type": "snow",
+                    "probability": 0.9,
+                    "inches": 8,
+                    "centimeters": 20
+                },
+                "day": "Wednesday",
+                "date_js": 1546387200000
+            }
+        },
+        "weekly_snowfall": {
+            "2019-05-15": {
+                "date": "2019-05-15",
+                "day": "Today",
+                "inches": 0,
+                "centimeters": 0
+            },
+            "2019-05-14": {
+                "date": "2019-05-14",
+                "day": "Yesterday",
+                "inches": 1,
+                "centimeters": 2
+            },
+            "2019-05-13": {
+                "date": "2019-05-13",
+                "day": "Monday",
+                "inches": 2,
+                "centimeters": 5
+            },
+            "2019-05-12": {
+                "date": "2019-05-12",
+                "day": "Sunday",
+                "inches": 3,
+                "centimeters": 7
+            },
+            "2019-05-11": {
+                "date": "2019-05-11",
+                "day": "Saturday",
+                "inches": 4,
+                "centimeters": 10
+            },
+            "2019-05-10": {
+                "date": "2019-05-10",
+                "day": "Friday",
+                "inches": 5,
+                "centimeters": 12
+            },
+            "2019-05-09": {
+                "date": "2019-05-09",
+                "day": "Thursday",
+                "inches": 6,
+                "centimeters": 15
+            },
+            "2019-05-22": {
+                "date": "2019-05-22",
+                "day": "Today",
+                "inches": 0,
+                "centimeters": 0
+            },
+            "2019-05-21": {
+                "date": "2019-05-21",
+                "day": "Yesterday",
+                "inches": 1,
+                "centimeters": 2
+            },
+            "2019-05-20": {
+                "date": "2019-05-20",
+                "day": "Monday",
+                "inches": 2,
+                "centimeters": 5
+            },
+            "2019-05-19": {
+                "date": "2019-05-19",
+                "day": "Sunday",
+                "inches": 3,
+                "centimeters": 7
+            },
+            "2019-05-18": {
+                "date": "2019-05-18",
+                "day": "Saturday",
+                "inches": 4,
+                "centimeters": 10
+            },
+            "2019-05-17": {
+                "date": "2019-05-17",
+                "day": "Friday",
+                "inches": 5,
+                "centimeters": 12
+            },
+            "2019-05-16": {
+                "date": "2019-05-16",
+                "day": "Thursday",
+                "inches": 6,
+                "centimeters": 15
+            }
+        }
+    },
+    "freestyle": {
+        "parks": {
+            "park_a": {
+                "difficulty": "l",
+                "groomed": "ungroomed",
+                "open": true,
+                "night_operation": true,
+                "area": "__area__",
+                "featured": false,
+                "features": {
+                    "feature_a": {
+                        "open": true,
+                        "type": "alpine",
+                        "difficulty": "l",
+                        "details": "__details__"
+                    },
+                    "feature_b": {
+                        "open": false,
+                        "type": "alpine",
+                        "difficulty": "l",
+                        "details": "__details__"
+                    }
+                }
+            },
+            "park_b": {
+                "difficulty": "m",
+                "groomed": "ungroomed",
+                "open": true,
+                "area": "__area__",
+                "features": {
+                    "feature_a": {
+                        "open": true,
+                        "type": "alpine",
+                        "difficulty": "l",
+                        "details": "__details__"
+                    }
+                }
+            }
+        },
+        "verticals": {
+            "vertical_a": {
+                "open": true,
+                "difficulty": "l",
+                "groomed": "am",
+                "night_operation": false,
+                "area": "__area__",
+                "featured": false
+            },
+            "vertical_b": {
+                "open": false,
+                "difficulty": "l",
+                "featured": false
+            }
+        },
+        "specials": {
+            "special_a": {
+                "open": false,
+                "difficulty": "s",
+                "area": "__area__"
+            },
+            "special_b": {
+                "open": true,
+                "difficulty": "s",
+                "area": "__area__"
+            }
+        }
+    },
+    "lifts": {
+        "lift_a": {
+            "status": "open",
+            "persons": "__persons__",
+            "night_operation": false,
+            "area": "__area__",
+            "beacon_required": true
+        },
+        "lift_b": {
+            "status": "closed",
+            "area": "__area__"
+        }
+    },
+    "roads": {
+        "i80": {
+            "open": true,
+            "requirements": "__requirements__",
+            "message": "__message__"
+        },
+        "Mountain Road": {
+            "open": true,
+            "message": "__message__"
+        },
+        "Service Road": {
+            "open": false,
+            "requirements": "__requirements__",
+            "message": "__message__"
+        }
+    },
+    "trails": {
+        "trail_a": {
+            "open": true,
+            "type": "alpine",
+            "groomed": "am",
+            "snow_making": false,
+            "night_operation": false,
+            "difficulty": "green",
+            "area": "__area__",
+            "featured": false
+        },
+        "trail_b": {
+            "open": false,
+            "type": "alpine",
+            "groomed": "ungroomed",
+            "difficulty": "black"
+        }
+    }
+}

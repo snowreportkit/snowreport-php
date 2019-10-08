@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area"
+    },
+    "lifts": {
+        "lift_a": {
+            "status": "open",
+            "persons": "__persons__",
+            "night_operation": false,
+            "area": "__area__",
+            "beacon_required": true
+        },
+        "lift_b": {
+            "status": "closed",
+            "area": "__area__"
+        }
+    }
+}

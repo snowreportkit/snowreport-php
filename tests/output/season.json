@@ -1,0 +1,12 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area",
+        "season": {
+            "open": "2019-01-01",
+            "close": "2019-01-01"
+        }
+    }
+}

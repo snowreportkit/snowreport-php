@@ -1,0 +1,26 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area"
+    },
+    "events": {
+        "event_a": {
+            "date": "2019-01-01T00:00:00+00:00",
+            "summary": "__summary__",
+            "description": "__description__",
+            "url": "__url__",
+            "thumbnail": "__thumbnail__",
+            "date_js": 1546300800000
+        },
+        "event_b": {
+            "date": "2019-01-02T00:00:00+00:00",
+            "summary": "__summary__",
+            "description": "__description__",
+            "url": "__url__",
+            "thumbnail": "__thumbnail__",
+            "date_js": 1546387200000
+        }
+    }
+}

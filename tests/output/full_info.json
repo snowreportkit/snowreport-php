@@ -1,0 +1,36 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Resort",
+        "website": "https:\/\/acmeskiresort.com",
+        "address": {
+            "address": "1234 Acme Rd",
+            "city": "Bozeman",
+            "state": "Montana",
+            "country": "USA",
+            "zip": 12345,
+            "directions": [
+                "From airport head east on interstate, take exit 123, turn left onto...",
+                "From University of School, head north on University Drive..."
+            ]
+        },
+        "phone": "1-866-123-1234",
+        "open": true,
+        "acres": 2000,
+        "acres_open": 500,
+        "hours": {
+            "open_time": "09:00",
+            "close_time": "16:30"
+        },
+        "season": {
+            "open": "2019-01-01",
+            "close": "2019-01-01"
+        },
+        "base_elevation": 6100,
+        "top_elevation": 8800,
+        "max_vertical": 2700,
+        "lift_served_vertical": 2600
+    }
+}

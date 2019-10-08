@@ -1,0 +1,75 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area"
+    },
+    "freestyle": {
+        "parks": {
+            "park_a": {
+                "difficulty": "l",
+                "groomed": "ungroomed",
+                "open": true,
+                "night_operation": true,
+                "area": "__area__",
+                "featured": false,
+                "features": {
+                    "feature_a": {
+                        "open": true,
+                        "type": "alpine",
+                        "difficulty": "l",
+                        "details": "__details__"
+                    },
+                    "feature_b": {
+                        "open": false,
+                        "type": "alpine",
+                        "difficulty": "l",
+                        "details": "__details__"
+                    }
+                }
+            },
+            "park_b": {
+                "difficulty": "m",
+                "groomed": "ungroomed",
+                "open": true,
+                "area": "__area__",
+                "features": {
+                    "feature_a": {
+                        "open": true,
+                        "type": "alpine",
+                        "difficulty": "l",
+                        "details": "__details__"
+                    }
+                }
+            }
+        },
+        "verticals": {
+            "vertical_a": {
+                "open": true,
+                "difficulty": "l",
+                "groomed": "am",
+                "night_operation": false,
+                "area": "__area__",
+                "featured": false
+            },
+            "vertical_b": {
+                "open": false,
+                "difficulty": "l",
+                "featured": false
+            }
+        },
+        "specials": {
+            "special_a": {
+                "open": false,
+                "difficulty": "s",
+                "area": "__area__"
+            },
+            "special_b": {
+                "open": true,
+                "difficulty": "s",
+                "area": "__area__"
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area",
+        "hours": {
+            "open_time": "09:00",
+            "close_time": "16:30",
+            "night_open_time": "17:00"
+        }
+    }
+}

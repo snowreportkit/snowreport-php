@@ -1,0 +1,26 @@
+{
+    "meta": {
+        "version": "v1"
+    },
+    "info": {
+        "name": "Acme Ski Area"
+    },
+    "trails": {
+        "trail_a": {
+            "open": true,
+            "type": "alpine",
+            "groomed": "am",
+            "snow_making": false,
+            "night_operation": false,
+            "difficulty": "green",
+            "area": "__area__",
+            "featured": false
+        },
+        "trail_b": {
+            "open": false,
+            "type": "alpine",
+            "groomed": "ungroomed",
+            "difficulty": "black"
+        }
+    }
+}

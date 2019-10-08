@@ -1,0 +1,34 @@
+{
+  "name":         "snowreportkit/snowreportkit",
+  "description":  "Snow Report Kit",
+  "type":         "library",
+  "license":      "MIT",
+  "authors":      [
+    {
+      "name":  "Travis Hyyppä",
+      "email": "travis@hyyppa.com"
+    }
+  ],
+  "require":      {
+    "php":                   "^7.2",
+    "guzzlehttp/guzzle":     "6.3.3",
+    "nesbot/carbon":         "^2.17",
+    "ramsey/uuid":           "^3.8"
+  },
+  "require-dev":  {
+    "phpunit/phpunit":                 "8.1.3",
+    "nunomaduro/collision":            "v3.0.1",
+    "symfony/var-dumper":              "^4.1",
+    "dms/phpunit-arraysubset-asserts": "^0.1.0"
+  },
+  "autoload":     {
+    "psr-4": {
+      "SnowReportKit\\SnowReportKit\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "tests/"
+    }
+  }
+}
